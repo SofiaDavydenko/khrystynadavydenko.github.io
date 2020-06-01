@@ -1,19 +1,18 @@
 body {
-    font-family: 'HelveticaNeueCyr';
-    font-weight: 400;
+    font-family: 'Silk Serif', 'HelveticaNeueCyr', "Roboto Light", sans-serif;
+    font-weight: 500;
     font-style: normal;
     font-size: 66%;
     letter-spacing: 0.2vh;
 }
 
 @font-face {
-    font-family: 'Kyiv*Sans Beta3';
-    src: url('KyivSansBeta-Regular3.eot');
-    src: local('Kyiv*Sans Beta Regular3'), local('Kyiv*SansBeta-Regular3'),
-        url('KyivSansBeta-Regular3.eot?#iefix') format('embedded-opentype'),
-        url('KyivSansBeta-Regular3.woff2') format('woff2'),
-        url('KyivSansBeta-Regular3.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Silk Serif';
+    src: local('Silk Serif Medium'), local('Silk-Serif-Medium'),
+    url('SilkSerif-Medium.woff2') format('woff2'),
+    url('SilkSerif-Medium.woff') format('woff'),
+    url('SilkSerif-Medium.ttf') format('truetype');
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -119,7 +118,7 @@ p {
 
 .about_ld {
     list-style-type: none;
-    font-family: 'Kyiv*Sans Beta3';
+    /*font-family: 'Kyiv*Sans Beta3';*/
     font-style: normal;
     font-weight: normal;
     font-size: 5vw;
@@ -130,7 +129,7 @@ p {
 
 .name {
     list-style-type: none;
-    font-family: 'Kyiv*Sans Beta3';
+    /*font-family: 'Kyiv*Sans Beta3';*/
     font-style: normal;
     font-weight: normal;
     font-size: 10vw;
@@ -140,7 +139,7 @@ p {
 
 .surname {
     list-style-type: none;
-    font-family: 'Kyiv*Sans Beta3';
+    /*font-family: 'Kyiv*Sans Beta3';*/
     font-style: normal;
     font-weight: normal;
     font-size: 10vw;
@@ -150,7 +149,7 @@ p {
 
 .year {
     list-style-type: none;
-    font-family: 'Kyiv*Sans Beta3';
+    /*font-family: 'Kyiv*Sans Beta3';*/
     font-style: normal;
     font-weight: normal;
     font-size: 3.5vw;
@@ -166,7 +165,7 @@ p {
 
 .biograph_part1 {
     list-style-type: none;
-    font-family: 'Kyiv*Sans Beta3';
+    /*font-family: 'Kyiv*Sans Beta3';*/
     font-style: normal;
     font-weight: normal;
     font-size: 4vw;
@@ -194,7 +193,7 @@ p {
 
 .main_exibition {
     list-style-type: none;
-    font-family: 'Kyiv*Sans Beta3';
+    /*font-family: 'Kyiv*Sans Beta3';*/
     font-style: normal;
     font-weight: normal;
     font-size: 5vw;
@@ -219,7 +218,7 @@ p {
     margin-bottom: 0;
     margin-top: 0;
     list-style-type: none;
-    font-family: 'Kyiv*Sans Beta3';
+    /*font-family: 'Kyiv*Sans Beta3';*/
     font-style: normal;
     font-weight: normal;
     font-size: 5.5vh;
@@ -236,7 +235,7 @@ p {
 
 .painting {
     list-style-type: none;
-    font-family: 'Kyiv*Sans Beta3';
+    /*font-family: 'Kyiv*Sans Beta3';*/
     font-style: normal;
     font-weight: normal;
     font-size: 14.2vw;
@@ -405,7 +404,7 @@ body a {
     margin-bottom: 0;
     margin-top: 0;
     list-style-type: none;
-    font-family: 'Kyiv*Sans Beta3';
+    /*font-family: 'Kyiv*Sans Beta3';*/
     font-style: normal;
     font-weight: normal;
     font-size: 5.5vh;
@@ -545,7 +544,7 @@ button.slick-prev.slick-arrow::before {
 
     .about_ld {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 7vw;
@@ -557,7 +556,7 @@ button.slick-prev.slick-arrow::before {
 
     .name {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 10vw;
@@ -568,7 +567,7 @@ button.slick-prev.slick-arrow::before {
 
     .surname {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 10vw;
@@ -587,7 +586,7 @@ button.slick-prev.slick-arrow::before {
 
     .about_ld {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 7vw;
@@ -598,7 +597,7 @@ button.slick-prev.slick-arrow::before {
 
     .name {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 10vw;
@@ -609,7 +608,7 @@ button.slick-prev.slick-arrow::before {
 
     .surname {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 10vw;
@@ -628,7 +627,7 @@ button.slick-prev.slick-arrow::before {
 
     .about_ld {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 7vw;
@@ -639,7 +638,7 @@ button.slick-prev.slick-arrow::before {
 
     .name {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 10vw;
@@ -650,7 +649,7 @@ button.slick-prev.slick-arrow::before {
 
     .surname {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 10vw;
@@ -661,7 +660,7 @@ button.slick-prev.slick-arrow::before {
 
     .year {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 7vw;
@@ -674,7 +673,7 @@ button.slick-prev.slick-arrow::before {
 @media screen and (max-width: 420px) {
     .year {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 7vw;
@@ -707,7 +706,7 @@ button.slick-prev.slick-arrow::before {
 
     .about_ld {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 7vw;
@@ -718,7 +717,7 @@ button.slick-prev.slick-arrow::before {
 
     .name {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 10vw;
@@ -730,7 +729,7 @@ button.slick-prev.slick-arrow::before {
 
     .surname {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 10vw;

@@ -1,19 +1,18 @@
 body {
-    font-family: 'HelveticaNeueCyr';
-    font-weight: 400;
+    font-family: 'Silk Serif', 'HelveticaNeueCyr', "Roboto Light", sans-serif;
+    font-weight: 500;
     font-style: normal;
     font-size: 66%;
     letter-spacing: 0.2vh;
 }
 
 @font-face {
-    font-family: 'Kyiv*Sans Beta3';
-    src: url('KyivSansBeta-Regular3.eot');
-    src: local('Kyiv*Sans Beta Regular3'), local('Kyiv*SansBeta-Regular3'),
-        url('KyivSansBeta-Regular3.eot?#iefix') format('embedded-opentype'),
-        url('KyivSansBeta-Regular3.woff2') format('woff2'),
-        url('KyivSansBeta-Regular3.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Silk Serif';
+    src: local('Silk Serif Medium'), local('Silk-Serif-Medium'),
+    url('SilkSerif-Medium.woff2') format('woff2'),
+    url('SilkSerif-Medium.woff') format('woff'),
+    url('SilkSerif-Medium.ttf') format('truetype');
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -113,14 +112,14 @@ p {
 
 .series_seaction {
     list-style-type: none;
-    font-family: 'Kyiv*Sans Beta3';
+    /*font-family: 'Kyiv*Sans Beta3';*/
     font-weight: normal;
     font-style: normal;
     font-size: 10vw;
 }
 
 .nambers_series1 p {
-    font-family: 'Kyiv*Sans Beta3';
+    /*font-family: 'Kyiv*Sans Beta3';*/
     font-style: normal;
     font-weight: normal;
     font-size: 4vw;
@@ -260,7 +259,7 @@ body .painting a {
     }
 
     .nambers_series1 p {
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 4vw;
@@ -283,7 +282,7 @@ body .painting a {
     }
 
     .nambers_series1 p {
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 5vw;
@@ -298,7 +297,7 @@ body .painting a {
 
     .series_seaction {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-weight: normal;
         font-style: normal;
         font-size: 14vw;
@@ -308,7 +307,7 @@ body .painting a {
 @media screen and (max-width: 576px) {
 
     .nambers_series1 p {
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 6vw;
@@ -323,7 +322,7 @@ body .painting a {
 
     .series_seaction {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-weight: normal;
         font-style: normal;
         font-size: 14vw;
@@ -333,7 +332,7 @@ body .painting a {
 @media screen and (max-width: 420px) {
 
     .nambers_series1 p {
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-style: normal;
         font-weight: normal;
         font-size: 6vw;
@@ -348,7 +347,7 @@ body .painting a {
 
     .series_seaction {
         list-style-type: none;
-        font-family: 'Kyiv*Sans Beta3';
+        /*font-family: 'Kyiv*Sans Beta3';*/
         font-weight: normal;
         font-style: normal;
         font-size: 14vw;
